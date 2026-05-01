@@ -1,0 +1,7 @@
+# Data files (can be regenerated from Odissé API)
+cancer_data_*.json
+combined_cancer_data.json
+incidence-estimee-*.json
+
+# macOS
+.DS_Store
