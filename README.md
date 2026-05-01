@@ -20,7 +20,8 @@ L'application propose **deux modes** :
   - Femmes seules
   - Ratio Hommes / Femmes
 - **Périodes disponibles** : de 1988-1992 à 2018-2022 (observé) + 2007-2016 (estimé — tous départements)
-- **Indicateur de source** : chaque département affiche « Estimé (modèle) » ou « Observé (registre) » dans l'infobulle
+- **Indicateur de source** : chaque département affiche « Estimé (modèle) », « Observé (registre) » ou « MCO » dans l'infobulle
+- **Vue activité hospitalière (🏥 MCO)** : nombre de séjours de chimiothérapie par département, données INCa 2018-2024
 - **Compteur dynamique** : nombre de départements affichés selon la période sélectionnée
 - **Carte interactive** : survol des départements pour afficher les détails, légende et code couleur selon l'intensité du taux
 
