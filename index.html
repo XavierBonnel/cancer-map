@@ -92,8 +92,8 @@
 <div class="note">
   ✅ <b>98 départements</b> couverts en mode <b>« Estimé 2007-2016 »</b> (modèle multi-source PMSI+ALD+registres). 
   Les autres périodes (<b>2018-2022</b>, etc.) n'affichent que les ~21 départements avec registre Francim.
-  <br><a href="https://odisse.santepubliquefrance.fr/catalog/datasets/cancer-incidence-observee-en-zone-registres-departement/" target="_blank">Source observée : Odissé SPF</a> · 
-  <a href="https://odisse.santepubliquefrance.fr/catalog/datasets/cancer-incidence-et-mortalite-estimees-departement/" target="_blank">Source estimée : Odissé SPF</a> ·
+  <br><a href="https://odisse.santepubliquefrance.fr/explore/dataset/cancer-incidence-observee-en-zone-registres-departement/" target="_blank">Source observée : Odissé SPF</a> ·
+  <a href="https://odisse.santepubliquefrance.fr/explore/dataset/cancer-incidence-et-mortalite-estimees-departement/" target="_blank">Source estimée : Odissé SPF</a> ·
   Licence Ouverte 2.0 · Mise à jour : 1 mai 2026
 </div>
 
@@ -406,9 +406,9 @@ function updateMap(){
     if(view==='mco'){
       srcEl.innerHTML='🏥 <a href="https://www.data.gouv.fr/fr/datasets/donnees-dactivite-en-lien-avec-le-cancer-dans-les-etablissements-de-sante-en-france/" target="_blank" style="color:#58a6ff;">INCa MCO</a>';
     }else if(period==='2007-2016'){
-      srcEl.innerHTML='📊 <a href="https://odisse.santepubliquefrance.fr/catalog/datasets/cancer-incidence-et-mortalite-estimees-departement/" target="_blank" style="color:#d29922;">Estimé SPF</a>';
+      srcEl.innerHTML='📊 <a href="https://odisse.santepubliquefrance.fr/explore/dataset/cancer-incidence-et-mortalite-estimees-departement/" target="_blank" style="color:#d29922;">Estimé SPF</a>';
     }else{
-      srcEl.innerHTML='🔬 <a href="https://odisse.santepubliquefrance.fr/catalog/datasets/cancer-incidence-observee-en-zone-registres-departement/" target="_blank" style="color:#58a6ff;">Observé SPF</a>';
+      srcEl.innerHTML='🔬 <a href="https://odisse.santepubliquefrance.fr/explore/dataset/cancer-incidence-observee-en-zone-registres-departement/" target="_blank" style="color:#58a6ff;">Observé SPF</a>';
     }
   }
 
